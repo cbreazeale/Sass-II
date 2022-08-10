@@ -1,5 +1,7 @@
 // import the abstracts module so that we can use the **phon** mixin
 
+@use '../abstracts';
+
 * {
   box-sizing: border-box;
 }

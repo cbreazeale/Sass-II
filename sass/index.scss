@@ -1,4 +1,4 @@
 // Import needed modules, refer to the project README for help
-@forward './base';
-@forward './components';
-@forward './pages';
+@use './base';
+@use './components';
+@use './pages';

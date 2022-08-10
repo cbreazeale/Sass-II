@@ -118,6 +118,39 @@ img {
   margin: 0 auto;
 }
 
+.footer {
+  width: 100%;
+  border-top: 2px dashed silver;
+  background: #FFEBCD;
+}
+.footer p {
+  text-align: center;
+  color: #212529;
+  font-size: 1.6rem;
+  padding: 20px;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1.5rem;
+  border-bottom: 2px dashed #C0C0C0;
+}
+
+.links {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
 .home .content-section {
   margin: 30px 0;
   display: flex;
@@ -163,6 +196,15 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+
+header h2 {
+  margin-top: 1rem;
+}
+
+header p {
+  border-bottom: 2px dashed #C0C0C0;
+  padding-bottom: 1.5rem;
 }
 
 /*# sourceMappingURL=index.css.map */

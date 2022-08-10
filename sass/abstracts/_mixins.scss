@@ -1,7 +1,7 @@
 // Mixins in here
 
 // Media Queries
-
+@use './variables';
 // Create media query for phones, be sure to import the **variables** partial so that
 // the phone-width variable can be used
 // https://davidwalsh.name/write-media-queries-sass

@@ -1,1 +1,26 @@
 // Navigation Styles here
+@use '../abstracts/' as *;
+
+nav {
+    // max-width: 800px;
+    width: 100%;
+    // margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1.5rem;
+    border-bottom: 2px dashed $navigation-border; ;
+}
+
+.links {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    // padding-right: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
